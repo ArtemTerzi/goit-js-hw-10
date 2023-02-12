@@ -13,6 +13,6 @@ export default function createFullMarkup({
   <p><span class="country-list__text">Population: </span>${population}</p>
   <p><span class="country-list__text">Languages: </span>${Object.values(
     languages
-  )}</p>
+  ).join(', ')}</p>
     </li>`;
 }
