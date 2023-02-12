@@ -46,6 +46,11 @@ ul {
   margin-left: 10px;
 }
 
+.country-list__item > p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .country-list__item--short {
   display: flex;
   align-items: center;
